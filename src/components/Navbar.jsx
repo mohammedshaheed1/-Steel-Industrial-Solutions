@@ -69,7 +69,7 @@ const Navbar = ({ darkMode }) => {
                     </div>
                     <a href="#about">ABOUT</a>
                     <a href='#service'>SERVICE</a>
-                    <a href='#work'>PRICE</a>
+                    <a href='#contact'>PRICE</a>
                     <a href='#contact'>CONTACT</a>
                 </ul>
             </nav>
