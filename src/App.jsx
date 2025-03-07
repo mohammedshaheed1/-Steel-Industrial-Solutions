@@ -12,7 +12,7 @@ const App = () => {
        <Home/>
        <Descriptions/>
        <Services/>
-       <ServiceDetails/>
+       {/* <ServiceDetails/> */}
        <Contact/>
        <Footer/>
        

@@ -5,7 +5,7 @@ import header_bg from '../assets/header-bg-color.png'
 import menu_black from '../assets/menu-black.png'
 import close_back from '../assets/close-black.png'
 import sun_icon from '../assets/sun_icon.png'
-import logo from '../assets/Logo.png'
+import logo from '../assets/six.png'
 
 const Navbar = ({ darkMode }) => {
 
@@ -39,7 +39,7 @@ const Navbar = ({ darkMode }) => {
             </div>
             <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${scrolling ? 'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20' : ''}`}>
                 <div className="flex ">
-                    <img src={logo} alt="" className="w-12 sm:w-14 md:w-16 cursor-pointer mr-5" />
+                    <img src={logo} alt="" className="w-10 sm:w-14 md:w-13 cursor-pointer mr-5 rounded-full bg-black" />
                     <p
                         className=" sm:text-sm md:text-4xl italic py-2 font-extrabold text-black bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 cursor-pointer transform transition-all duration-300 hover:scale-110 text-center md:text-left"
                     >

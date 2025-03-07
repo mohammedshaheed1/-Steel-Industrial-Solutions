@@ -1,6 +1,6 @@
 import React from 'react'
 import footer from '../assets/foot.png'
-import logo from '../assets/Logo.png'
+import logo from '../assets/six.png'
 
 const Footer = () => {
     return (
@@ -15,7 +15,7 @@ const Footer = () => {
         >
 
             <div className="flex  ">
-                <img src={logo} alt="" className="w-5 sm:w-14 md:w-6 cursor-pointer mr-2" />
+                <img src={logo} alt="" className="w-2 sm:w-10 md:w-6 cursor-pointer mr-2 rounded-full" />
                 <p
                     className="text-sm sm:text-sm md:text-sm italic py-2 font-extrabold text-black bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 cursor-pointer transform transition-all duration-300 hover:scale-110 text-center md:text-left"
                 >
