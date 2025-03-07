@@ -49,7 +49,7 @@ const Navbar = ({ darkMode }) => {
                 <ul className={`hidden md:flex text-2xl text-white font-extrabold items-center gap-6 lg:gap-8 rounded-full px-12 py-3 font-Ovo  ${scrolling ? '' : ' shadow-sm bg-opacity-50  dark:border dark:border-white/50 dark:bg-transparent'}`}>
                     <a href="#about">About</a>
                     <a href='#service'>Services</a>
-                    <a href='#work'>Price</a>
+                    <a href='#contact'>Price</a>
                     <a href='#contact'>Contact</a>
                 </ul>
                 {/* <div className='flex items-center gap-4 font-Ovo '>
