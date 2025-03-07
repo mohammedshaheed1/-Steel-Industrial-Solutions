@@ -1,10 +1,10 @@
 import React from 'react'
-import footer from '../assets/footer-bg-color.png'
-import right_arrow from '../assets/right-arrow-white.png'
+
+
 
 const Contact = () => {
   return (
-    <div id='contact' className='w-full bg-black px-[12%] py-10 scroll-mt-20 bg-no-repeat bg-[length:90%_auto] bg-center' style={{ backgroundImage: `url(${footer})` }}>
+    <div id='contact' className='w-full bg-black px-[12%] py-10 scroll-mt-20 bg-no-repeat bg-[length:90%_auto] bg-center' >
       <h4 className='text-center mb-2 text-lg font-Ovo text-white '>Connect with Us</h4>
       <h2 className='text-center text-5xl font-Ovo text-white '>Get in touch</h2>
       <p className='text-center text-white font-extrabold max-w-2xl mx-auto mt-5 mb-12 font-Ovo '>We focus on providing cost-effective solutions compared to our competitors. The
