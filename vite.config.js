@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base:"/Steel-Industrial-Solutions"
+  base:"/-Steel-Industrial-Solutions"
 })
