@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full bg-black px-[12%] py-10 scroll-mt-20 bg-no-repeat bg-[length:90%_auto] bg-center' >
       <h4 className='text-center mb-2 text-lg font-Ovo text-white '>Connect with Us</h4>
-      <h2 className='text-center text-5xl font-Ovo text-white '>Get in touch</h2>
+      <h2 className='text-center text-5xl font-Ovo text-white '>Get a Free Quotation for Your Project</h2>
       <p className='text-center text-white font-extrabold max-w-2xl mx-auto mt-5 mb-12 font-Ovo '>We focus on providing cost-effective solutions compared to our competitors. The
         price of each project varies depending on factors such as type, duration, and other
         considerations. You can get a price estimate for your project by submitting the
@@ -37,11 +37,11 @@ const Contact = () => {
         </div>
 
         <div className='grid grid-cols-auto gap-6 mt-10 mb-8'>
-          <select name="Selecttheservice" className="p-3 border-[0.5px] border-gray-400 rounded-md bg-white">
-            <option value="SteelDetailing">SteelDetailing
+          <select name="Select the service"  className="p-3 border-[0.5px] border-gray-400 rounded-md bg-white">
+            <option value="SteelDetailing">Steel Detailing
             </option>
 
-            <option value="ExteriorDesigning orInteriorDesiging">ExteriorDesigning orInteriorDesiging</option>
+            <option value="ExteriorDesigning orInteriorDesiging">Exterior Designing or Interior Desiging</option>
             <option value="Extimation">Extimation</option>
 
           </select>

@@ -13,7 +13,7 @@ const ServiceCard = () => {
       <div className="flex flex-col sm:flex-row justify-around w-full gap-4 mb-10">
         {/* Steel Detailing Service with Slide-In Animation */}
         
-        <Link className="flex-1 animate-slideInLeft sm:w-1/2" to={'/estimation'} >
+        <Link className="flex-1  sm:w-1/2" to={'/estimation'} >
           <img
             src={steel}
             alt="Steel"
@@ -23,11 +23,11 @@ const ServiceCard = () => {
         </Link>
 
         {/* Interior Designing Service with Fade-In Animation */}
-        <Link className="flex-1 animate-fadeIn sm:w-1/2" to={'/interior'} >
+        <Link className="flex-1 sm:w-1/2" to={'/interior'} >
           <img
             src={interior}
             alt="Interior"
-            className="w-full  sm:h-60 border border-gray-400 rounded-lg px-4 py-6 sm:px-8 sm:py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
+            className="w-full h-131  border border-gray-400 rounded-lg px-4 py-6 sm:px-8 sm:py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
           />
           <p className="text-lg sm:text-xl text-black font-extrabold text-center px-4 sm:px-20">Interior Designing for Steel Structures</p>
         </Link>
